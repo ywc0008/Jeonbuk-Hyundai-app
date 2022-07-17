@@ -1,0 +1,11 @@
+.recommended-friends{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    margin: var(--main-padding);
+    padding: 10px 0 20px;
+}
+.recommended-friends__title{
+    color: rgba(0, 0, 0, 0.5);
+}
+.recommended-friends__user-component{
+    margin-left: 0;
+}

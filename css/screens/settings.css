@@ -1,0 +1,26 @@
+.setting-header{
+    display: flex;
+    justify-content: space-between;
+    margin: var(--main-padding);
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.setting-header a{
+    color: black;
+}
+.settings__row{
+    margin: var(--main-padding);
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+}
+.settings__row__column i{
+    margin-right: 15px;
+}
+.settings__add-text{
+    color: grey;
+}

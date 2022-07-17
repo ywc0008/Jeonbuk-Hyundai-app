@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jeonbuk Hyundai Moters</title>
+    <title>Welcome to Jeonbuk Hyundai Moters</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,16 +23,31 @@
     </div>
 
     <header class="index-header">
-      <h1>Jeonbuk Hyundai Moters</h1>
-      <p>k1리그 최강 팀</p>
+      <img src="img/엠블럼.png" id="background-img" />
+      <h1>Welcome to Jeonbuk Hyundai Moters</h1>
     </header>
 
     <form action="friends.html" method="get" class="index-form">
-      <input required placeholder="Email or ID" type="text" />
-      <input required placeholder="Password" type="password" />
-      <input required type="submit" value="Log In" />
+      <input
+        required
+        placeholder="Email or ID"
+        type="text"
+        class="index-form__id"
+      />
+      <input
+        required
+        placeholder="Password"
+        type="password"
+        class="index-form__password"
+        minlength="10"
+      />
+      <input required type="submit" value="Log In" class="index-form__login" />
       <a href="#">아이디와 비밀번호를 찾겠습니까?</a>
     </form>
+
+    <div id="no-mobile">
+      <span>화면이 너무 큽니다.</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/c49955fb2c.js"

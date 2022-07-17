@@ -1,0 +1,37 @@
+.badge{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: tomato;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.captain{
+    width: 30px;
+    height: 20px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.more__dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: relative;
+    bottom: 10px;
+}
+.cog__dot{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: relative;
+    top:-25px;
+    left: 110px;
+}

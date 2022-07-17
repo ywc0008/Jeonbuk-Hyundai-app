@@ -1,0 +1,21 @@
+.status-bar{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+.status-bar div{
+    width: 33%;
+    font-size: 18px;
+}
+.status-bar div:nth-child(2){
+    display: flex;
+    justify-content: center;
+}
+.status-bar div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar div:last-child i {
+    margin-left: 5px;
+}

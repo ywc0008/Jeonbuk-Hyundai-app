@@ -1,0 +1,17 @@
+.screen-header{
+    display: flex;
+    justify-content: space-between;
+    padding: var(--main-padding);
+    align-items: center;
+    margin-top: 20px;
+}
+.screen-header__column:first-child{
+    font-weight: 600;
+    font-size: 30px;
+}
+.screen-header__column:last-child i{
+    margin-left: 15px;
+}
+.screen-header a{
+    color: black;
+}
